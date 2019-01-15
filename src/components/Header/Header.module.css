@@ -3,6 +3,7 @@
     background-color: #0c0d0d;
   }
   
-  .main_header img {
-    width: 20px;
+  .logo {
+    color:white;
+    margin-left: 15px;
   }

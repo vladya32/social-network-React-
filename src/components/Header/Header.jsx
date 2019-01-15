@@ -2,9 +2,11 @@ import React from 'react';
 import s from './Header.module.css';
 
 const Header = () => {
-    return <header className= {s.main_header}>
-        <img src="https://www.freelogodesign.org/Content/img/logo-ex-7.png" alt="" />
-    </header>
+    return (
+        <header className={s.main_header} >
+            <h1 className={s.logo}>Logo</h1>
+        </header >
+    )
 }
 
 export default Header;
